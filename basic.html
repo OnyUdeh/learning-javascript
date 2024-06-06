@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+      function add7(number){
+        let sum = number + 7;
+        return sum
+      }
+
+      function multiply(num1, num2){
+        let product = num1 * num2;
+        return product
+      }
+
+      function firstCapitalize(string){
+        let word = string
+        let firstLetter = word.charAt(0);
+        let firstLetterCap = firstLetter.toUpperCase();
+        let remainingLetters = word.slice(1);
+        let remainingLettersLowCap = remainingLetters.toLowerCase();
+        let capitalizedWord = firstLetterCap + remainingLettersLowCap
+        return capitalizedWord
+      }
+
+      function lastLetter(aSring){
+        let word = aString;
+        let lastLetter = word.charAt(word.length - 1);
+        return lastLetter
+      }
+
+  </script>
+</body>
+</html>
